@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header/> Header render Should Header component render 1`] = `
+<div
+  className="text-light p-4 mb-5 text-right"
+  style={
+    Object {
+      "backgroundImage": "url(./images/header-4.jpg)",
+      "backgroundPosition": "right",
+      "height": "200px",
+    }
+  }
+>
+  <div
+    className="d-none d-sm-block m-2"
+  />
+  <h1
+    className="display-4 d-none d-md-block"
+  >
+    Генератор 
+    <wbr />
+    <span
+      className="text-info"
+    >
+      UTM
+    </span>
+    ‑меток
+  </h1>
+  <h1
+    className="display-5 d-block d-md-none"
+  >
+    Генератор 
+    <wbr />
+    <span
+      className="text-info"
+    >
+      UTM
+    </span>
+    ‑меток
+  </h1>
+  <div
+    className="d-flex flex-row justify-content-end mt-4"
+  >
+    <div
+      className="font-weight-bolder mr-3"
+    >
+      Включить ночной режим
+    </div>
+    <Toggle
+      darkTheme={false}
+      themeToggle={[Function]}
+    />
+  </div>
+</div>
+`;

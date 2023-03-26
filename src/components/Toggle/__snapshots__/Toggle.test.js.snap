@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Toggle/> Should render checked="false" if prop "darkTheme: false" 1`] = `
+<div
+  className="main"
+>
+  <input
+    checked={false}
+    id="cbx"
+    onChange={[Function]}
+    special="test"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="checkbox"
+  />
+  <label
+    className="toggle"
+    htmlFor="cbx"
+  >
+    <span />
+  </label>
+</div>
+`;
+
+exports[`<Toggle/> Should render checked="true" if prop "darkTheme: true" 1`] = `
+<div
+  className="main"
+>
+  <input
+    checked={true}
+    id="cbx"
+    onChange={[Function]}
+    special="test"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="checkbox"
+  />
+  <label
+    className="toggle"
+    htmlFor="cbx"
+  >
+    <span />
+  </label>
+</div>
+`;

@@ -3,3 +3,20 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+
+import Enzyme, { shallow, render, mount } from 'enzyme';
+import Adapter from '@chalbert/enzyme-adapter-react-18';
+import toJson from 'enzyme-to-json';
+
+Enzyme.configure({
+  adapter: new Adapter(),
+});
+
+global.shallow = shallow;
+global.mount = mount;
+global.render = render;
+global.toJson = toJson;
+
+console.error = (message) => {
+  throw new Error(message);
+};

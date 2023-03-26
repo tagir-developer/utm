@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResultLink /> Component render. Component props testing Should ResultLink component render with default props 1`] = `
+<div
+  className="mt-3"
+>
+  <label
+    className="font-weight-bold"
+    htmlFor="result-link-input"
+  >
+    Дефолтный заголовок
+  </label>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        className="btn btn-primary"
+        id="result-link-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Скопировать
+      </button>
+    </div>
+    <input
+      aria-describedby="result-link-button"
+      aria-label="Example text with button addon"
+      className="form-control"
+      id="result-link-input"
+      onChange={[Function]}
+      placeholder="Значение плейсхолдера"
+      type="text"
+      value="Итоговая ссылка"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ResultLink /> Component render. Component props testing Should ResultLink component render with test props 1`] = `
+<div
+  className="mt-3"
+>
+  <label
+    className="font-weight-bold"
+    htmlFor="result-link-input"
+  >
+    Тестовый заголовок
+  </label>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        className="btn btn-primary"
+        id="result-link-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Скопировать
+      </button>
+    </div>
+    <input
+      aria-describedby="result-link-button"
+      aria-label="Example text with button addon"
+      className="form-control"
+      id="result-link-input"
+      onChange={[Function]}
+      placeholder="Тестовый плейсхолдер"
+      type="text"
+      value="Тестовая ссылка"
+    />
+  </div>
+</div>
+`;

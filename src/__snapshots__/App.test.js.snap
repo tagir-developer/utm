@@ -1,0 +1,615 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> Component render. Should App component render 1`] = `
+<div
+  className=""
+>
+  <div
+    className="container"
+  >
+    <Header
+      darkTheme={false}
+      themeToggle={[Function]}
+    />
+    <Alert
+      alert={
+        Object {
+          "payload": Object {
+            "heading": "Заголовок алерта!",
+            "message": "Сообщение об ошибке. Сообщение об ошибке. Сообщение об ошибке. Сообщение об ошибке.",
+            "type": "danger",
+          },
+          "visible": false,
+        }
+      }
+      alertClose={[Function]}
+      copied={false}
+    />
+    <h2
+      className="mt-5 mb-4"
+    >
+      Адрес целевой страницы
+    </h2>
+    <TargetUrl
+      isHttp={true}
+      protocolHandler={[Function]}
+      targetUrlHandler={[Function]}
+    />
+    <hr />
+    <CheckboxList
+      changeCheckedSource={[Function]}
+      checkboxes={
+        Array [
+          "Свои значения",
+          "Яндекс.Директ",
+          "Google Adwords",
+          "Вконтакте",
+          "Facebook",
+          "myTarget",
+          "Instagram",
+        ]
+      }
+      checkedSource="Свои значения"
+    />
+    <hr />
+    <UtmList
+      changeSourceFieldsValue={[Function]}
+      checkedSource="Свои значения"
+      translitHandler={[Function]}
+      utmFields={
+        Array [
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "",
+                "utm": "utm_campaign",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "",
+                "utm": "utm_content",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "",
+                "utm": "utm_term",
+                "value": "",
+              },
+            ],
+            "name": "Свои значения",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "yandex",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "yandex",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "{campaign_id}",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "Вместо {campaign_id} Яндекс.Директ автоматически подставит ID кампании",
+                "utm": "utm_campaign",
+                "value": "{campaign_id}",
+              },
+              Object {
+                "defaultValue": "{ad_id}_{source}",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "Вместо {ad_id} Яндекс.Директ автоматически подставит ID объявления, а {source} заменит на домен площадки при показе на сайте РСЯ; none — при показе на поиске Яндекса",
+                "utm": "utm_content",
+                "value": "{ad_id}_{source}",
+              },
+              Object {
+                "defaultValue": "{keyword}",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "Вместо {keyword} Яндекс.Директ автоматически подставит ключевое слово",
+                "utm": "utm_term",
+                "value": "{keyword}",
+              },
+            ],
+            "name": "Яндекс.Директ",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "google",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "google",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "{network}",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "Вместо {network} система подставит \\"g\\" (поиск google), \\"s\\" (поисковый партнер) или \\"d\\" (КМС)",
+                "utm": "utm_campaign",
+                "value": "{network}",
+              },
+              Object {
+                "defaultValue": "{creative}",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "Вместо {creative} Google Adwords автоматически подставит ID объявления",
+                "utm": "utm_content",
+                "value": "{creative}",
+              },
+              Object {
+                "defaultValue": "{keyword}",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "Вместо {keyword} Google Adwords автоматически подставить ключевое слово",
+                "utm": "utm_term",
+                "value": "{keyword}",
+              },
+            ],
+            "name": "Google Adwords",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "vkontakte",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "vkontakte",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "{campaign_id}",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "VK автоматически заменит {campaign_id} на ID рекламной кампании",
+                "utm": "utm_campaign",
+                "value": "{campaign_id}",
+              },
+              Object {
+                "defaultValue": "{ad_id}",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "VK автоматически заменит {ad_id} на ID объявления",
+                "utm": "utm_content",
+                "value": "{ad_id}",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "",
+                "utm": "utm_term",
+                "value": "",
+              },
+            ],
+            "name": "Вконтакте",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "facebook",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "facebook",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "{{campaign.name}}",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "Вместо {{campaign.name}} Facebook автоматически подставит имя кампании",
+                "utm": "utm_campaign",
+                "value": "{{campaign.name}}",
+              },
+              Object {
+                "defaultValue": "{{ad.name}}",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "Вместо {{ad.name}} Facebook автоматически подставит название объявления",
+                "utm": "utm_content",
+                "value": "{{ad.name}}",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "",
+                "utm": "utm_term",
+                "value": "",
+              },
+            ],
+            "name": "Facebook",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "mytarget",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "mytarget",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "{{campaign_id}}",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "Вместо {{campaign_id}} автоматически подставится ID кампании",
+                "utm": "utm_campaign",
+                "value": "{{campaign_id}}",
+              },
+              Object {
+                "defaultValue": "{{banner_id}}",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "Вместо {{banner_id}} автоматически подставится ID объявления",
+                "utm": "utm_content",
+                "value": "{{banner_id}}",
+              },
+              Object {
+                "defaultValue": "{{geo}}.{{gender}}.{{age}}",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "Вместо {{geo}}.{{gender}}.{{age}} автоматически подставится ID региона, пол и возраст кликнувшего по рекламе",
+                "utm": "utm_term",
+                "value": "{{geo}}.{{gender}}.{{age}}",
+              },
+            ],
+            "name": "myTarget",
+          },
+          Object {
+            "fields": Array [
+              Object {
+                "defaultValue": "instagram",
+                "heading": "Источник компании",
+                "id": 1,
+                "placeholder": "yandex, google, fb, vk ...",
+                "popover": Object {
+                  "text": "Этот параметр используется, чтобы указать название источника трафика. Например, utm_source=google – контекстная реклама в Google Adwords; utm_source=yandex — контекстная реклама в Яндекс.Директ",
+                  "title": "utm_source — название рекламной площадки",
+                },
+                "prompt": "",
+                "utm": "utm_source",
+                "value": "instagram",
+              },
+              Object {
+                "defaultValue": "cpc",
+                "heading": "Тип трафика",
+                "id": 2,
+                "placeholder": "cpc, cpm, banner, email...",
+                "popover": Object {
+                  "text": "Рекомендуем использовать в этом параметре общепринятые значения. Расшифруем некоторые из них: cpc (cost per click) — контекстная реклама с оплатой за клик, cpa — (cost per action) плата за действие, banner — медийная или баннерная реклама с оплатой за показы, email — рассылка на электронную почту и др.",
+                  "title": "utm_medium — тип рекламы",
+                },
+                "prompt": "",
+                "utm": "utm_medium",
+                "value": "cpc",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Название кампании",
+                "id": 3,
+                "placeholder": "promo, sale, моя компания",
+                "popover": Object {
+                  "text": "Для вашего удобства в этом обязательном параметре рекомендуется описывать важные характеристики компании. Это поможет вам легче различать рекламные компании. Например: utm_campaign=auto_female_24-45_mobile – рекламная кампания автомобилей для пользователей мобильных устройств, женщин в возрасте от 24 до 45 лет.",
+                  "title": "utm_campaign — название кампании",
+                },
+                "prompt": "",
+                "utm": "utm_campaign",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Идентификатор объявления",
+                "id": 4,
+                "placeholder": "yandex, google, fb...",
+                "popover": Object {
+                  "text": "В этом параметре можно указать важные характеристики объявления или динамические переменные. Например, можно указать подкатегорию товара или услуги, название картинки используемой в креативе, разрешение рекламного баннера и др. Пример: utm_content=banner_apple_250×70 — баннер с изображением яблока и разрешением 250 на 70 пикселей",
+                  "title": "utm_content — дополнительная информация, которую можно отслеживать, если совпадают другие параметры",
+                },
+                "prompt": "",
+                "utm": "utm_content",
+                "value": "",
+              },
+              Object {
+                "defaultValue": "",
+                "heading": "Ключевое слово",
+                "id": 5,
+                "placeholder": "landing, banner_size_450x800...",
+                "popover": Object {
+                  "text": "Этот необязательный параметр поможет вам отличить одно рекламное объявление от другого в статистике. В него удобно подставлять автоматически-генерируемые рекламными площадками динамические параметры. Пример: utm_term={keyword} — Яндекс.Директ автоматически подставит вместо {keyword} ключевое слово, по которому было показано объявление.",
+                  "title": "utm_term — ключевое слово",
+                },
+                "prompt": "",
+                "utm": "utm_term",
+                "value": "",
+              },
+            ],
+            "name": "Instagram",
+          },
+        ]
+      }
+    />
+    <hr />
+    <Button
+      handler={[Function]}
+      text="Сгенерировать ссылку"
+      type="primary"
+    />
+    <Button
+      handler={[Function]}
+      text="Очистить форму"
+      type="info"
+    />
+    <hr />
+    <h2
+      className="mt-5 mb-4"
+    >
+      Результаты появятся здесь
+    </h2>
+    <Alert
+      alert={
+        Object {
+          "payload": Object {
+            "heading": "Заголовок алерта!",
+            "message": "Сообщение об ошибке. Сообщение об ошибке. Сообщение об ошибке. Сообщение об ошибке.",
+            "type": "danger",
+          },
+          "visible": false,
+        }
+      }
+      alertClose={[Function]}
+      copied={true}
+    />
+    <ResultLink
+      copyResultLink={[Function]}
+      resultLink=""
+      resultLinkChange={[Function]}
+      text="Здесь появится ссылка с метками"
+      title="Сгенерированная ссылка"
+    />
+    <ShortLink
+      copyResultLink={[Function]}
+      shortLink=""
+      shortLinkChange={[Function]}
+      text="Здесь появится укороченная ссылка"
+      title="Укороченная ссылка"
+    />
+    <hr />
+    <h2
+      className="mt-5 mb-4"
+    >
+      Динамические переменные и их использование
+    </h2>
+    <Tabs />
+    <h2
+      className="mt-5 mb-4"
+    >
+      Автоматическое исправление ошибок
+    </h2>
+    <Text />
+    <Footer />
+  </div>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> Component render. Component props testing Should Alert component render without props 1`] = `
+<CSSTransition
+  classNames="alert"
+  in={false}
+  mountOnEnter={true}
+  timeout={
+    Object {
+      "enter": 600,
+      "exit": 200,
+    }
+  }
+  unmountOnExit={true}
+>
+  <div
+    className="alert alert-success alert-dismissible fade show"
+    role="alert"
+  >
+    <strong>
+      Заголовок алерта
+    </strong>
+     
+    Сообщение алерта
+    <button
+      className="close"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        aria-hidden="true"
+      >
+        ×
+      </span>
+    </button>
+  </div>
+</CSSTransition>
+`;

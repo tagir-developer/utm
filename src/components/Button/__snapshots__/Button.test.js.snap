@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> Component render. Component props testing Should Button component render without props 1`] = `
+<button
+  className="btn btn-success mr-3 my-2"
+  onClick={[Function]}
+  type="button"
+>
+  Текст кнопки
+</button>
+`;

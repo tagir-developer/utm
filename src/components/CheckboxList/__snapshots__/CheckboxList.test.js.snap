@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckboxList /> Component render. Component props testing Should CheckboxList component render without props 1`] = `
+<Fragment>
+  <div
+    className="d-none d-sm-block"
+  >
+    <div
+      className="row row-cols-4"
+    >
+      <div
+        className="col-3 pl-3 py-3"
+        key="PC0"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="1"
+          checkedSource="1"
+          device="PC"
+          index={0}
+        />
+      </div>
+      <div
+        className="col-3 pl-3 py-3"
+        key="PC1"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="2"
+          checkedSource="1"
+          device="PC"
+          index={1}
+        />
+      </div>
+      <div
+        className="col-3 pl-3 py-3"
+        key="PC2"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="3"
+          checkedSource="1"
+          device="PC"
+          index={2}
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="d-block d-sm-none"
+  >
+    <div
+      className="row row-cols-2"
+    >
+      <div
+        className="col-6 pl-3 py-3"
+        key="Mobile0"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="1"
+          checkedSource="1"
+          device="Mobile"
+          index={0}
+        />
+      </div>
+      <div
+        className="col-6 pl-3 py-3"
+        key="Mobile1"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="2"
+          checkedSource="1"
+          device="Mobile"
+          index={1}
+        />
+      </div>
+      <div
+        className="col-6 pl-3 py-3"
+        key="Mobile2"
+      >
+        <Checkbox
+          changeCheckedSource={[Function]}
+          checkbox="3"
+          checkedSource="1"
+          device="Mobile"
+          index={2}
+        />
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

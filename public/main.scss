@@ -1,0 +1,101 @@
+
+$theme-colors: (
+  "primary": #00a88e,
+  "success": #00a88e,
+  "secondary": rgb(255, 128, 9),
+  "info": rgb(255, 145, 43),
+);
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.btn-info, .btn-info:hover {
+  color: #fff!important;
+}
+
+
+// Styles for dark theme
+
+.darkTheme {
+	background: #181818; 
+	color: #fff;
+}
+
+.darkTheme p {
+	color: #b0b0b0;
+}
+
+.darkTheme input {
+	background: #282828;
+	color: #b0b0b0;
+}
+
+.darkTheme input:focus {
+	background: #282828;
+	color: #fff;
+}
+
+.darkTheme .input-group-text {
+	background: #181818;
+	color: #fff;
+}
+
+.darkTheme .bi {
+  color: #fff;
+}
+
+.darkTheme .nav-pills .nav-link.active,
+.darkTheme .nav-pills .show > .nav-link {
+  color: #fff!important;
+  font-weight: bold;
+  background-color: #494949!important; }
+
+.darkTheme .table {
+  color: #b0b0b0;
+}
+
+.darkTheme .table th[scope="col"] {
+  color: #ffffff;
+}
+
+.darkTheme .green-text {
+  color: #00a88e;
+}
+
+.darkTheme li {
+  color: #b0b0b0;
+}
+
+.darkTheme li b {
+  color: #00a88e;
+}
+
+// Styles for dark theme - END
+
+// Styles for Alert.js
+
+.alert-enter {
+  opacity: 0;
+}
+
+.alert-enter-active {
+  transition: opacity 500ms ease-out;
+  opacity: 1;
+}
+
+.alert-exit-active {
+  transition: opacity 200ms ease-out;
+  opacity: 0;
+}
+
+// Styles for Alert.js - END
+
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #000!important;
+  background-color: #e9ecef!important; }
+
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShortLink /> Component render. Component props testing Should ShortLink component render with default props 1`] = `
+<div
+  className="mt-3"
+>
+  <label
+    className="font-weight-bold"
+    htmlFor="short-link-input"
+  >
+    Дефолтный заголовок
+  </label>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        className="btn btn-primary"
+        id="short-link-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Скопировать
+      </button>
+    </div>
+    <input
+      aria-describedby="short-link-button"
+      aria-label="Example text with button addon"
+      className="form-control"
+      id="short-link-input"
+      onChange={[Function]}
+      placeholder="Значение плейсхолдера"
+      type="text"
+      value="Короткая ссылка"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ShortLink /> Component render. Component props testing Should ShortLink component render with test props 1`] = `
+<div
+  className="mt-3"
+>
+  <label
+    className="font-weight-bold"
+    htmlFor="short-link-input"
+  >
+    Тестовый заголовок
+  </label>
+  <div
+    className="input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        className="btn btn-primary"
+        id="short-link-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Скопировать
+      </button>
+    </div>
+    <input
+      aria-describedby="short-link-button"
+      aria-label="Example text with button addon"
+      className="form-control"
+      id="short-link-input"
+      onChange={[Function]}
+      placeholder="Тестовый плейсхолдер"
+      type="text"
+      value="Тестовая ссылка"
+    />
+  </div>
+</div>
+`;

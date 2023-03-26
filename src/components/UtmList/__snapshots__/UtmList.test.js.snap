@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UtmList /> Component render. Component props testing Should UtmList component render with default props 1`] = `
+<Fragment>
+  <div
+    className="d-none d-md-block"
+  >
+    <div
+      className="row row-cols-2"
+    >
+      <Utm
+        changeSourceFieldsValue={[Function]}
+        checkedSource="default source name"
+        classes="col-6"
+        device="PC"
+        key="PC0"
+        utmId="PC0"
+        utmInfo={
+          Object {
+            "id": "1",
+          }
+        }
+      />
+      <Utm
+        changeSourceFieldsValue={[Function]}
+        checkedSource="default source name"
+        classes="col-6"
+        device="PC"
+        key="PC1"
+        utmId="PC1"
+        utmInfo={
+          Object {
+            "id": "2",
+          }
+        }
+      />
+      <Utm
+        changeSourceFieldsValue={[Function]}
+        checkedSource="default source name"
+        classes="col-6"
+        device="PC"
+        key="PC2"
+        utmId="PC2"
+        utmInfo={
+          Object {
+            "id": "3",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="d-block d-md-none"
+  >
+    <Utm
+      changeSourceFieldsValue={[Function]}
+      checkedSource="default source name"
+      classes="mt-1"
+      device="Mobile"
+      key="Mobile0"
+      utmId="Mobile0"
+      utmInfo={
+        Object {
+          "id": "1",
+        }
+      }
+    />
+    <Utm
+      changeSourceFieldsValue={[Function]}
+      checkedSource="default source name"
+      classes="mt-1"
+      device="Mobile"
+      key="Mobile1"
+      utmId="Mobile1"
+      utmInfo={
+        Object {
+          "id": "2",
+        }
+      }
+    />
+    <Utm
+      changeSourceFieldsValue={[Function]}
+      checkedSource="default source name"
+      classes="mt-1"
+      device="Mobile"
+      key="Mobile2"
+      utmId="Mobile2"
+      utmInfo={
+        Object {
+          "id": "3",
+        }
+      }
+    />
+  </div>
+  <div
+    className="custom-control custom-checkbox cursor-pointer my-4"
+  >
+    <input
+      className="custom-control-input cursor-pointer"
+      id="translitCheckbox"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="custom-control-label cursor-pointer"
+      htmlFor="translitCheckbox"
+    >
+      Транслитерация параметров
+    </label>
+  </div>
+</Fragment>
+`;

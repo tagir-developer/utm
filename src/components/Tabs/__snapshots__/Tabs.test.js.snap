@@ -1,0 +1,1014 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> Should Tabs component render 1`] = `
+<div
+  className="mb-5 mt-3"
+>
+  <div
+    aria-orientation="vertical"
+    className="nav nav-pills flex-column flex-md-row"
+    id="v-pills-tab"
+    role="tablist"
+  >
+    <a
+      aria-controls="v-pills-about"
+      aria-selected="true"
+      className="my-3 flex-md-fill text-md-center nav-link active"
+      data-toggle="pill"
+      href="#v-pills-about"
+      id="v-pills-about-tab"
+      role="tab"
+    >
+      Что это?
+    </a>
+    <a
+      aria-controls="v-pills-yandex"
+      aria-selected="false"
+      className="my-3 flex-md-fill text-md-center nav-link"
+      data-toggle="pill"
+      href="#v-pills-yandex"
+      id="v-pills-yandex-tab"
+      role="tab"
+    >
+      Яндекс.Директ
+    </a>
+    <a
+      aria-controls="v-pills-google"
+      aria-selected="false"
+      className="my-3 flex-md-fill text-md-center nav-link"
+      data-toggle="pill"
+      href="#v-pills-google"
+      id="v-pills-google-tab"
+      role="tab"
+    >
+      Google Adwords
+    </a>
+    <a
+      aria-controls="v-pills-facebook"
+      aria-selected="false"
+      className="my-3 flex-md-fill text-md-center nav-link"
+      data-toggle="pill"
+      href="#v-pills-facebook"
+      id="v-pills-facebook-tab"
+      role="tab"
+    >
+      Facebook
+    </a>
+    <a
+      aria-controls="v-pills-mytarget"
+      aria-selected="false"
+      className="my-3 flex-md-fill text-md-center nav-link"
+      data-toggle="pill"
+      href="#v-pills-mytarget"
+      id="v-pills-mytarget-tab"
+      role="tab"
+    >
+      myTarget
+    </a>
+  </div>
+  <div
+    className="tab-content"
+    id="v-pills-tabContent"
+  >
+    <div
+      aria-labelledby="v-pills-about-tab"
+      className="tab-pane fade rounded p-4 show active"
+      id="v-pills-about"
+      role="tabpanel"
+      style={
+        Object {
+          "boxShadow": "inset 0px 2px 8px 5px rgba(0, 0, 0, 0.15)",
+          "height": "auto",
+        }
+      }
+    >
+      <h4
+        className="py-3"
+      >
+        Что это?
+      </h4>
+      <p>
+        Динамические переменные указываются как значения одного из utm-параметров. Рекламная площадка автоматически заменяет эти переменные на дополнительную полезную информацию, например, устройство, через которое пользователь кликнул по рекламной ссылке, или ключевое слово, по которому человек искал объявление.
+      </p>
+      <p>
+        Возможность передавать дополнительную информацию через динамические параметры – очень удобная функция, ведь она позволяет маркетологам отслеживать важные данные о переходе по ссылке, которые фиксируются в счетчиках и системах аналитики.
+      </p>
+      <p>
+        Например, при использовании метки utm_term={keyword}, Яндекс.Директ автоматически заменит {keyword} на ключевую фразу, по которой произошел показ объявления, а при использовании метки utm_content={creative}, Google Adwords автоматически подставит ID объявления, по которому кликнул пользователь.
+      </p>
+      <p>
+        Обычно динамические переменные используются в параметре utm_content, но вы можете задать динамические переменные и для других меток и даже комбинировать их, указав сразу два параметра в одной метке.
+      </p>
+      <p>
+        Для вашего удобства, наш генератор utm-меток сам прописывает в параметрах часто используемые динамические переменные для различных рекламных площадок. 
+      </p>
+    </div>
+    <div
+      aria-labelledby="v-pills-yandex-tab"
+      className="tab-pane fade rounded p-4"
+      id="v-pills-yandex"
+      role="tabpanel"
+      style={
+        Object {
+          "boxShadow": "inset 0px 2px 8px 5px rgba(0, 0, 0, 0.15)",
+          "height": "auto",
+        }
+      }
+    >
+      <h4
+        className="py-3"
+      >
+        Основные параметры динамической вставки: Яндекс.Директ.
+      </h4>
+      <table
+        className="table table-striped"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              Параметр
+            </th>
+            <th
+              scope="col"
+            >
+              Что система подставит вместо {параметра}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="yandex0"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {ad_id}, {banner_id}
+            </th>
+            <td>
+              Идентификатор объявления
+            </td>
+          </tr>
+          <tr
+            key="yandex1"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {addphrases}
+            </th>
+            <td>
+              Инициирован ли этот показ дополнительными релевантными фразами. "yes" — показ по дополнительной релевантной фразе. "no" — показ по одной из исходных фраз.
+            </td>
+          </tr>
+          <tr
+            key="yandex2"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {addphrasestext}
+            </th>
+            <td>
+              Текст дополнительной релевантной фразы. "текст фразы" — при показе по дополнительной релевантной фразе. "none" — показ не был инициирован дополнительной релевантной фразой.
+            </td>
+          </tr>
+          <tr
+            key="yandex3"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {campaign_type}
+            </th>
+            <td>
+              Тип кампании. "type1" — текстово-графические объявления. "type2" — реклама мобильных приложений. "type3" — динамические объявления. "type4" — смарт-баннеры.
+            </td>
+          </tr>
+          <tr
+            key="yandex4"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {campaign_id}
+            </th>
+            <td>
+              Идентификатор рекламной кампании
+            </td>
+          </tr>
+          <tr
+            key="yandex5"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {creative_id}
+            </th>
+            <td>
+              Идентификатор креатива из конструктора
+            </td>
+          </tr>
+          <tr
+            key="yandex6"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {device_type}
+            </th>
+            <td>
+              Тип устройства, на котором произведен показ. "desktop" - стационарный компьютер. "mobile" - мобильное устройство. "tablet" - планшет.
+            </td>
+          </tr>
+          <tr
+            key="yandex7"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {gbid}
+            </th>
+            <td>
+              Идентификатор группы
+            </td>
+          </tr>
+          <tr
+            key="yandex8"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {keyword}
+            </th>
+            <td>
+              Ключевая фраза, по которой было показано объявление (текстово-графическое или реклама мобильных приложений) (без минус-слов)
+            </td>
+          </tr>
+          <tr
+            key="yandex9"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {phrase_id}
+            </th>
+            <td>
+              Идентификатор ключевой фразы для текстово-графических объявлений или рекламы мобильных приложений
+            </td>
+          </tr>
+          <tr
+            key="yandex10"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {retargeting_id}
+            </th>
+            <td>
+              Идентификатор условия нацеливания на аудиторию, связывающего группу объявлений с условиями подбора аудитории или интересами к мобильным приложениям
+            </td>
+          </tr>
+          <tr
+            key="yandex11"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {coef_goal_context_id}
+            </th>
+            <td>
+              Идентификатор корректировки ставок для условия подбора аудитории
+            </td>
+          </tr>
+          <tr
+            key="yandex12"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {interest_id}
+            </th>
+            <td>
+              Идентификатор интереса к мобильным приложениям
+            </td>
+          </tr>
+          <tr
+            key="yandex13"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {adtarget_name}
+            </th>
+            <td>
+              Условие нацеливания динамического объявления
+            </td>
+          </tr>
+          <tr
+            key="yandex14"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {adtarget_id}
+            </th>
+            <td>
+              Идентификатор условия нацеливания динамического объявления
+            </td>
+          </tr>
+          <tr
+            key="yandex15"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {position}
+            </th>
+            <td>
+              Точная позиция объявления в блоке. Передает только номер позиции, по которому невозможно определить тип блока, где показано объявление (используйте вместе с {position_type}). 1) номер позиции в блоке (например, 1); 2) 0 — объявление было показано в сетях (РСЯ или внешние сети)
+            </td>
+          </tr>
+          <tr
+            key="yandex16"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {position_type}
+            </th>
+            <td>
+              Тип блока, если показ произошел на странице с результатами поиска Яндекса. "premium" — спецразмещение. "other" — блок справа или блок внизу. "none" — объявление было показано в сетях (РСЯ или внешние сети).
+            </td>
+          </tr>
+          <tr
+            key="yandex17"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {source}
+            </th>
+            <td>
+              Место показа. "домен площадки (например, vk.com)" — при показе в сетях (РСЯ или внешние сети). "none" — при показе в поиске Яндекса
+            </td>
+          </tr>
+          <tr
+            key="yandex18"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {source_type}
+            </th>
+            <td>
+              Тип площадки, на которой произведен показ объявления. "search" — поиск. "context" — сети
+            </td>
+          </tr>
+          <tr
+            key="yandex19"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {region_name}
+            </th>
+            <td>
+              Регион, в котором было показано объявление
+            </td>
+          </tr>
+          <tr
+            key="yandex20"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {region_id}
+            </th>
+            <td>
+              Идентификатор региона, в котором было показано объявление
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      aria-labelledby="v-pills-google-tab"
+      className="tab-pane fade rounded p-4"
+      id="v-pills-google"
+      role="tabpanel"
+      style={
+        Object {
+          "boxShadow": "inset 0px 2px 8px 5px rgba(0, 0, 0, 0.15)",
+          "height": "auto",
+        }
+      }
+    >
+      <h4
+        className="py-3"
+      >
+        Основные параметры динамической вставки: Google Adwords.
+      </h4>
+      <table
+        className="table table-striped"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              Параметр
+            </th>
+            <th
+              scope="col"
+            >
+              Что система подставит вместо {параметра}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="google0"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {adgroupid}
+            </th>
+            <td>
+              Идентификатор группы объявлений. Используйте его, если вы настроили данные отслеживания на уровне аккаунта или кампании и хотите узнать, объявление из какой группы было показано
+            </td>
+          </tr>
+          <tr
+            key="google1"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {adposition}
+            </th>
+            <td>
+              Позиция объявления на странице. Например, значение 1t2 расшифровывается так: страница 1, показ над результатами поиска (top), позиция 2
+            </td>
+          </tr>
+          <tr
+            key="google2"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {campaignid}
+            </th>
+            <td>
+              Идентификатор кампании. Используйте его, если вы настроили данные отслеживания на уровне аккаунта и хотите узнать, объявление из какой кампании было показано
+            </td>
+          </tr>
+          <tr
+            key="google3"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {creative}
+            </th>
+            <td>
+              Уникальный идентификатор объявления
+            </td>
+          </tr>
+          <tr
+            key="google4"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {device}
+            </th>
+            <td>
+              Тип устройства, с которого поступил клик
+            </td>
+          </tr>
+          <tr
+            key="google5"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {feeditemid}
+            </th>
+            <td>
+              	Идентификатор расширения, на которое нажал пользователь
+            </td>
+          </tr>
+          <tr
+            key="google6"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {keyword}
+            </th>
+            <td>
+              Ключевое слово, по которому было показано объявление в поисковой сети, или наиболее близкое ключевое слово при показе в контекстно-медийной сети
+            </td>
+          </tr>
+          <tr
+            key="google7"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {loc_interest_ms}
+            </th>
+            <td>
+              Идентификатор местоположения, указанного в поисковом запросе пользователя
+            </td>
+          </tr>
+          <tr
+            key="google8"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {loc_physical_ms}
+            </th>
+            <td>
+              Идентификатор географического местоположения, откуда был получен клик
+            </td>
+          </tr>
+          <tr
+            key="google9"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {lpurl}
+            </th>
+            <td>
+              Конечный URL. Шифруется, если только вы не указали {lpurl} в начале шаблона отслеживания. Если параметр {lpurl} указан не в самом начале шаблона отслеживания, пробел и символы ?, =, ", #, 	, ' и (пробел) заменяются escape-кодами
+            </td>
+          </tr>
+          <tr
+            key="google10"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {matchtype}
+            </th>
+            <td>
+              Тип соответствия ключевого слова, по которому было показано объявление
+            </td>
+          </tr>
+          <tr
+            key="google11"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {merchant_id}
+            </th>
+            <td>
+              Идентификатор аккаунта Google Merchant Center, к которому относится товарное объявление.
+            </td>
+          </tr>
+          <tr
+            key="google12"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {placement}
+            </th>
+            <td>
+              Сайт, где объявление получило клик. Он соответствует заданным вами ключевым словам или условиям таргетинга на места размещения (в зависимости от настроек таргетинга в кампании)
+            </td>
+          </tr>
+          <tr
+            key="google13"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {product_channel}
+            </th>
+            <td>
+              Тип канала продаж, через который реализуется товар, рекламируемый в объявлении
+            </td>
+          </tr>
+          <tr
+            key="google14"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {product_country}
+            </th>
+            <td>
+              Страна, в которой продается товар, рекламируемый в объявлении
+            </td>
+          </tr>
+          <tr
+            key="google15"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {product_id}
+            </th>
+            <td>
+              Идентификатор товара, рекламируемого в объявлении (из фида данных Merchant Center)
+            </td>
+          </tr>
+          <tr
+            key="google16"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {product_language}
+            </th>
+            <td>
+              Язык, на котором приведена информация о товаре (согласно фиду данных Merchant Center)
+            </td>
+          </tr>
+          <tr
+            key="google17"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {product_partition_id}
+            </th>
+            <td>
+              Уникальный идентификатор группы товаров, к которой относится объявление
+            </td>
+          </tr>
+          <tr
+            key="google18"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {store_code}
+            </th>
+            <td>
+              Для кампаний, использующих локальный канал продаж, здесь отображается уникальный код магазина
+            </td>
+          </tr>
+          <tr
+            key="google19"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {targetid}
+            </th>
+            <td>
+              Идентификатор ключевого слова (kwd), динамического поискового объявления (dsa) или цели списка ремаркетинга (aud). Например, если вы добавите в группу объявлений список ремаркетинга с идентификатором критерия 456 и настроите таргетинг на ключевое слово с идентификатором 123, параметр {targetid} будет заменен на kwd-123:aud-456
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      aria-labelledby="v-pills-facebook-tab"
+      className="tab-pane fade rounded p-4"
+      id="v-pills-facebook"
+      role="tabpanel"
+      style={
+        Object {
+          "boxShadow": "inset 0px 2px 8px 5px rgba(0, 0, 0, 0.15)",
+          "height": "auto",
+        }
+      }
+    >
+      <h4
+        className="py-3"
+      >
+        Основные параметры динамической вставки: Facebook.
+      </h4>
+      <table
+        className="table table-striped"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              Параметр
+            </th>
+            <th
+              scope="col"
+            >
+              Что система подставит вместо {параметра}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="facebook0"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{ad.id}}
+            </th>
+            <td>
+              Идентификатор объявления
+            </td>
+          </tr>
+          <tr
+            key="facebook1"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{adset.id}}
+            </th>
+            <td>
+              Идентификатор группы объявлений
+            </td>
+          </tr>
+          <tr
+            key="facebook2"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{campaign.id}}
+            </th>
+            <td>
+              Идентификатор кампании
+            </td>
+          </tr>
+          <tr
+            key="facebook3"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{ad.name}}
+            </th>
+            <td>
+              Название объявления
+            </td>
+          </tr>
+          <tr
+            key="facebook4"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{adset.name}}
+            </th>
+            <td>
+              Имя набора объявлений
+            </td>
+          </tr>
+          <tr
+            key="facebook5"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{campaign.name}}
+            </th>
+            <td>
+              Название кампании
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      aria-labelledby="v-pills-mytarget-tab"
+      className="tab-pane fade rounded p-4"
+      id="v-pills-mytarget"
+      role="tabpanel"
+      style={
+        Object {
+          "boxShadow": "inset 0px 2px 8px 5px rgba(0, 0, 0, 0.15)",
+          "height": "auto",
+        }
+      }
+    >
+      <h4
+        className="py-3"
+      >
+        Основные параметры динамической вставки: myTarget.
+      </h4>
+      <table
+        className="table table-striped"
+      >
+        <thead>
+          <tr>
+            <th
+              scope="col"
+            >
+              Параметр
+            </th>
+            <th
+              scope="col"
+            >
+              Что система подставит вместо {параметра}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            key="mytarget0"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{advertiser_id}}
+            </th>
+            <td>
+              id рекламодателя
+            </td>
+          </tr>
+          <tr
+            key="mytarget1"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{campaign_id}}
+            </th>
+            <td>
+              id рекламной кампании
+            </td>
+          </tr>
+          <tr
+            key="mytarget2"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{campaign_name}}
+            </th>
+            <td>
+              название рекламной кампании
+            </td>
+          </tr>
+          <tr
+            key="mytarget3"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{banner_id}}
+            </th>
+            <td>
+              	id баннера
+            </td>
+          </tr>
+          <tr
+            key="mytarget4"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{geo}}
+            </th>
+            <td>
+              id региона по геодереву myTarget, из которого был сделан переход
+            </td>
+          </tr>
+          <tr
+            key="mytarget5"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{gender}}
+            </th>
+            <td>
+              пол пользователя, который сделал переход
+            </td>
+          </tr>
+          <tr
+            key="mytarget6"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{age}}
+            </th>
+            <td>
+              возраст пользователя, который сделал переход
+            </td>
+          </tr>
+          <tr
+            key="mytarget7"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{random}}
+            </th>
+            <td>
+              случайное число. Часто используется в ссылках (аудит-пикселях) для более точного подсчета показов
+            </td>
+          </tr>
+          <tr
+            key="mytarget8"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{impression_weekday}}
+            </th>
+            <td>
+              передает день недели (например, mon), в который произошел показ баннера. Используется в метке ссылки
+            </td>
+          </tr>
+          <tr
+            key="mytarget9"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{impression_hour}}
+            </th>
+            <td>
+              передает час (например, 23), в который произошел показ по Московскому времени в 24-часовом формате
+            </td>
+          </tr>
+          <tr
+            key="mytarget10"
+          >
+            <th
+              className="green-text"
+              scope="row"
+            >
+              {{user_timezone}}
+            </th>
+            <td>
+              передает временную зону пользователя (например, +3), в котором был сделан показ
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

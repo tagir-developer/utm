@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Checkbox /> Component render. Component props testing Should Checkbox component render with default props 1`] = `
+<div
+  className="custom-control custom-radio custom-control-inline cursor-pointer"
+>
+  <input
+    checked={true}
+    className="custom-control-input cursor-pointer"
+    id="customRadioInline-device0"
+    name="customRadioInline-device"
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="custom-control-label cursor-pointer"
+    htmlFor="customRadioInline-device0"
+  >
+    1
+  </label>
+</div>
+`;

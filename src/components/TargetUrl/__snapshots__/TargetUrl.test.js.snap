@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TargetUrl /> Component render Should TargetUrl component render 1`] = `
+<Fragment>
+  <div
+    className="input-group my-4"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <button
+        aria-expanded="false"
+        aria-haspopup="true"
+        className="btn btn-primary dropdown-toggle"
+        data-toggle="dropdown"
+        type="button"
+      >
+        https://
+      </button>
+      <div
+        className="dropdown-menu"
+      >
+        <div
+          className="dropdown-item cursor-pointer"
+        >
+          http://
+        </div>
+      </div>
+    </div>
+    <input
+      aria-label="Text input with dropdown button"
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Введите ссылку на целевую страницу"
+      type="text"
+    />
+  </div>
+</Fragment>
+`;
